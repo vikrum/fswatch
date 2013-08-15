@@ -1,3 +1,6 @@
+## fork hack
+Hacked to allow for n **excluded** (sub)paths from a watch directory. --vikrum
+
 ## fswatch.c
 
 This is a small program using the Mac OS X FSEvents API to monitor a directory.
