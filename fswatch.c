@@ -48,9 +48,6 @@ void callback(
       fprintf(stderr, "error: error executing\n");
       exit(1);
     }
-    else {
-      fprintf(stderr, "Change set had excluded path\n");
-    }
   } else {
     while(wait(&status) != pid)
       ;
